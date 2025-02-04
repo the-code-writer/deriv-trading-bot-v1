@@ -70,7 +70,7 @@ export default function Post({ interval }: { interval: string }) {
           </a>
         </div>
       </div>
-      <p className="text-gray-500 text-sm">fetched {timeAgo(fetchedAt)}</p>
+      <p className="text-gray-500 text-sm">fetched at {timeAgo(fetchedAt)}</p>
     </div>
   )
 }
